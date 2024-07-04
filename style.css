@@ -42,6 +42,7 @@ a:hover{
     }
     .mapitas{
         margin-left: 27%;
+        border-radius: 12px;
     }
 }
 @media (max-width:280px){
