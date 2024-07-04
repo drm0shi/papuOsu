@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(0, 24, 44);
+}
+header h1::first-letter{
+    color: yellow;
+}
+header h1{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+a:hover{
+   color: white;
+}
+.cancionesO{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.mapitas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 210, 0);
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    transition-duration: 1s;
+}
+.mapitas:hover{
+    background-color: rgb(185, 158, 5);
+    transition-duration: 1s;
+}
+@media (max-width:728px){
+    .cancionesO{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .mapitas{
+        margin-left: 27%;
+    }
+}
+@media (max-width:280px){
+    .cancionesO{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .mapitas{
+        margin-left: 15%;
+    }
+}
