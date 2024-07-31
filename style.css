@@ -1,5 +1,5 @@
 body{
-    background-image: url(waw.jpg);
+    background-image: url(https://i.makeagif.com/media/5-18-2023/mS2ggG.gif);
 background-repeat: no-repeat;
 background-size: 100% 100%;
 background-attachment: fixed;
@@ -12,13 +12,13 @@ header h1{
     -1px 8px 8px black,
      -1px 8px 8px black,
     -1px 8px 8px black;
-    color: rgb(87, 0, 158); 
+    color: rgb(255, 255, 255); 
 }
 .cancionesO{
     display: grid;
     grid-template-columns: repeat(6,1fr);
 }
-.mapitas a{
+.mapitas1 a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,9 +33,354 @@ header h1{
     font-size: 19px;
     transition-duration: 0.3s;
 }
-.mapitas>a:hover{
+.mapitas1>a:hover{
     color: white;
     background-color: rgb(185, 158, 5);
+    transition-duration: 0.3s;
+}
+.mapitas2 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://pbs.twimg.com/profile_images/1741248259178254336/oPie-h4l_400x400.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%,70%;
+    background-position: center;
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas2>a:hover{
+    color: rgb(71, 2, 128);
+    text-shadow: 0 0 30px rgb(71, 2, 128),
+    0 0 30px rgb(71, 2, 128),
+    0 0 30px rgb(71, 2, 128),
+    0 0 30px rgb(71, 2, 128),
+    0 0 30px rgb(71, 2, 128);
+    background-size: 100%;
+    transition-duration: 0.3s;
+}
+.mapitas3 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://64.media.tumblr.com/6ca706c6837399ebcabe6e1f491cb055/23f9cf6c0d247055-9d/s500x750/e104e9fbf6f3d0bd91385b5299f7af4891107913.gif);
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    background-position: center;
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    transition-duration: 1s;
+}
+.mapitas3>a:hover{
+    color: rgb(172, 0, 149);
+    text-shadow: 0 0 30px rgb(172, 0, 149),
+    0 0 30px rgb(172, 0, 149),
+    0 0 30px rgb(172, 0, 149),
+    0 0 30px rgb(172, 0, 149),
+    0 0 30px rgb(172, 0, 149);
+    transition-duration: 0.3s;
+}
+.mapitas4 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://i.pinimg.com/236x/8e/df/70/8edf7094a6ce025552f8a1f2003a3225.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%,70%;
+    background-position: center;
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas4>a:hover{
+    color: rgb(0, 163, 22);
+    background-size: 100%;
+    transition-duration: 0.3s;
+}
+.mapitas5 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://i.makeagif.com/media/11-11-2022/uBw3Rz.gif);
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    background-position: center;
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas5>a:hover{
+    color: rgb(0, 184, 144);
+    background-color: rgb(185, 158, 5);
+    transition-duration: 0.3s;
+}
+.mapitas6 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(109, 0, 233);
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas6>a:hover{
+    color: white;
+    background-color: rgb(31, 63, 245);
+    transition-duration: 0.3s;
+}
+.mapitas7 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://somoskudasai.com/wp-content/uploads/2022/08/portada_oshi-no-ko-15.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%,90%;
+    background-position: center;
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas7>a:hover{
+    color: rgb(29, 152, 173);
+    background-size: 100%,100%;
+    transition-duration: 0.3s;
+}
+.mapitas8 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1f/76/fc/1f76fc30-dabb-02a0-2250-c13a54a82b05/198009111497.png/1200x1200bf-60.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%,90%;
+    background-position: center;
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas8>a:hover{
+    color: rgb(135, 204, 250);
+    background-size: 100%,100%;
+    transition-duration: 0.3s;
+}
+.mapitas9 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://i.makeagif.com/media/9-27-2021/nIq8P6.gif);
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    background-position: center;
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas9>a:hover{
+    color: rgb(128, 203, 253);
+    transition-duration: 0.3s;
+}
+.mapitas10 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://miro.medium.com/v2/resize:fit:1280/1*6fiZagK7pBG4Q5IwbEXGGQ.gif);
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    background-position: center;
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas10>a:hover{
+    color: rgb(118, 247, 167);
+    transition-duration: 0.3s;
+}
+.mapitas11 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(6, 41, 240);
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas11>a:hover{
+    color: white;
+    background-color: rgb(2, 178, 231);
+    transition-duration: 0.3s;
+}
+.mapitas12 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://i.ytimg.com/vi/RIA-vEJB1Aw/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%,90%;
+    background-position: center;
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas12>a:hover{
+    color: rgb(0, 255, 42);
+    background-size: 100%,100%;
+    transition-duration: 0.3s;
+}
+.mapitas13 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://www.lavanguardia.com/peliculas-series/images/serie/backdrop/2021/3/w1280/lURZio8KWkZ9qUixiopFTqOXix.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%,90%;
+    background-position: center;
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas13>a:hover{
+    color: rgb(0, 199, 206);
+    background-size: 100%,100%;
+    transition-duration: 0.3s;
+}
+.mapitas14 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://s1.zerochan.net/Hiten.Goane.Ryu.600.2673610.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%,90%;
+    background-position: center;
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas14>a:hover{
+    color: rgb(206, 1, 1);
+    background-size: 100%,100%;
+    transition-duration: 0.3s;
+}
+.mapitas15 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://i.ytimg.com/vi/XMXXL8ka7eU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBtSX3quXqpnCJYCTJAAh0vgRUYeQ);
+    background-repeat: no-repeat;
+    background-size: 90%,90%;
+    background-position: center;
+    margin-top: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas15>a:hover{
+    color: white;
+    background-size: 100%,100%;
+    transition-duration: 0.3s;
+}
+.mapitas16 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://i.ppy.sh/239c4aecd61c6ff752ac15557b5d400e9e6f5c00/68747470733a2f2f6d65646961312e74656e6f722e636f6d2f6d2f775557734d4a454846746f41414141642f766f63616c6f69642d6368616e6e656c2d636173746174696f6e2e676966);
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    background-position: center;
+    margin-top: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas16>a:hover{
+    color: rgb(15, 5, 158);
     transition-duration: 0.3s;
 }
 @media (max-width:728px){
@@ -43,7 +388,7 @@ header h1{
         display: grid;
         grid-template-columns: 1fr;
     }
-    .mapitas{
+    .mapitas1,.mapitas2,.mapitas3,.mapitas4,.mapitas5,.mapitas6,.mapitas7,.mapitas8,.mapitas9,.mapitas10,.mapitas11,.mapitas12,.mapitas13,.mapitas14,.mapitas15,.mapitas16{
         margin-left: 27%;
         border-radius: 12px;
     }
