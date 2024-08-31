@@ -383,12 +383,34 @@ header h1{
     color: rgb(15, 5, 158);
     transition-duration: 0.3s;
 }
+.mapitas17 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://i.makeagif.com/media/5-18-2023/mS2ggG.gif);
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    background-position: center;
+    margin-top: 18px;
+    width: 180px;
+    height: 40px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: rgb(97, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+.mapitas17>a:hover{
+    color: rgb(15, 5, 158);
+    transition-duration: 0.3s;
+}
 @media (max-width:728px){
     .cancionesO{
         display: grid;
         grid-template-columns: 1fr;
     }
-    .mapitas1,.mapitas2,.mapitas3,.mapitas4,.mapitas5,.mapitas6,.mapitas7,.mapitas8,.mapitas9,.mapitas10,.mapitas11,.mapitas12,.mapitas13,.mapitas14,.mapitas15,.mapitas16{
+    .mapitas1,.mapitas2,.mapitas3,.mapitas4,.mapitas5,.mapitas6,.mapitas7,.mapitas8,.mapitas9,.mapitas10,.mapitas11,.mapitas12,.mapitas13,.mapitas14,.mapitas15,.mapitas16,.mapitas17{
         margin-left: 27%;
         border-radius: 12px;
     }
